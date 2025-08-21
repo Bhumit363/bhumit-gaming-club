@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhumit game club</title>
+    <style>
+        body {
+            background-image: url('Background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        header {
+            background: #212dabb6;
+            padding: 1.5rem 0;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(20, 20, 20, 0.1);
+            display: flex;
+            align-items: center;
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 2.0 rem;
+            letter-spacing: 2px;
+            color: #dbd414;
+        }
+        
+        nav {
+            margin-top: 1rem;
+        }
+        
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        
+        .featured {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            padding: 2rem 1rem;
+        }
+        
+        .game-card {
+            background: #4c515fbd;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(255, 253, 253, 0.484);
+            width: 260px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        
+        .game-card:hover {
+            transform: translateY(0rem) scale(1.03);
+        }
+        
+        .game-card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        
+        .game-card h2 {
+            font-size: 1.3rem;
+            margin: 0.5rem 0;
+        }
+        
+        .game-card p {
+            font-size: 1rem;
+            color: #cfd8dc;
+        }
+        
+        .price {
+            color: #e3ac44;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 0.7rem 0;
+        }
+        
+        .buy-btn {
+            background: #cb9b41;
+            color: #22242c;
+            border: none;
+            padding: 0.7rem 1.5rem;
+            border-radius: 6px;
+            font-size: 1rem;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        
+        .buy-btn:hover {
+            background: #ffd700;
+        }
+        
+        footer {
+            background: #383d53;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+            color: #cfd8dc;
+        }
+    </style>
+</head>
+
+<body>
+    <header style="display: flex; align-items: center; padding: 0rem;">
+        <img src="Adobe Express - file.png" alt="Game Logo" style="height:150px;width:200px; margin-right: -3rem;">
+        <div>
+            <h1 style="margin: 0px;font-size:3rem;letter-spacing:2px;color:#dbd414;">Bhumit Gaming Club</h1>
+            <nav style="margin-top:1rem;">
+                <a href="#featured">Featured</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <!-- add games -->
+    <section class="featured" id="featured">
+        <div class="game-card">
+            <img src="gta-v-background-photo.jpg">
+            <h2>Grand Theft Auto V</h2>
+            <p>Grand Theft Auto V — now upgraded for Bhumit gaming club</p>
+            <div class="price">Free/-</div>
+            <a href="game files\GTAV-1.4.5.apk" class="buy-btn" download>Download Now</a>
+        </div>
+            <div class="game-card">
+                <img src="wp7290537-minecraft-animals-wallpapers.jpg">
+                <h2>Minecraft Dungeons</h2>
+                <p>Minecraft Dungeons — Play the world’s game at Bhumit gaming club</p>
+                <div class="price">Free/-</div>
+                <a href="game files\minecraft-apk-latest-version-august-2025.apk" class="buy-btn" download>Download Now</a>
+            </div>
+        </div>
+            <div class="game-card">
+                <img src="download.jpg">
+                <h2>Pubg</h2>
+                <p>Pubg — Play the world’s game at Bhumit gaming club</p>
+                <div class="price">Free/-</div>
+                <a href="game files\LDPlayer9_ens_com.pubg.krmobile_25567197_ld.exe" class="buy-btn" download>Download Now</a>
+            </div>
+        <div class="game-card">
+                <img src="free fire.jpg">
+                <h2>Free Fire</h2>
+                <p>Free Fire — Play the world’s game at Bhumit gaming club</p>
+                <div class="price">Free/-</div>
+                <a href="game files\LDPlayer9_ens_com.pubg.krmobile_25567197_ld.exe" class="buy-btn" download>Download Now</a>
+            </div>
+        <div class="game-card">
+                <img src="taken 3.jpg">
+                <h2>Free Fire</h2>
+                <p>Free Fire — Play the world’s game at Bhumit gaming club</p>
+                <div class="price">Free/-</div>
+                <a href="game files\Tekken 3_1.3_APKPure.apk" class="buy-btn" download>Download Now</a>
+            </div>
+    </section>
+    <footer id="contact">
+        <p>Contact us: bhumitchauhan363@gmail.com / +91 8448478104</p>
+        <p>&copy; 2025 Game Store.</p>
+    </footer>
+</body>
+
+</html>
